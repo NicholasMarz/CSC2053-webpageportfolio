@@ -1,2 +1,7 @@
 [build]
-  publish = "views"
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/views/index.html"
+  status = 200
